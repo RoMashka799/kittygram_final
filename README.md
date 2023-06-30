@@ -1,5 +1,7 @@
 ## Учебный проект Kittygram
 
+![example workflow](https://github.com/RoMashka799/kittygram_final/actions/workflows/main.yml/badge.svg)
+
 Этот проект позволит вам обмениваться фото и достижениями любимых котиков. Только котики, и больше никого!) В описание добавьте имя, цвет и достижения любимца. 
 
 # Описание проекта
@@ -59,14 +61,9 @@ docker compose -f docker-compose.yml exec backend cp -r /app/static_backend/. /b
 
 В корне проекта создайте файл .env и пропишите в него свои данные.
 
-Пример:
-```
-POSTGRES_DB=kittygram
-POSTGRES_USER=kittygram_user
-POSTGRES_PASSWORD=kittygram_password
-DB_NAME=kittygram
-Workflow
-```
+Пример: см.файл .env.example
+
+#Workflow
 
 Для использования Continuous Integration (CI) и Continuous Deployment (CD): в репозитории GitHub Actions Settings/Secrets/Actions прописать Secrets - переменные окружения для доступа к сервисам:
 ```
@@ -91,4 +88,4 @@ deploy - автоматический деплой проекта на боев�
 
 send_message - отправка уведомления в Telegram.
 
-### Мария Панюшева
+### Мария Панюшева, Gtihub: [https://github.com/RoMashka799](RoMashka799)
